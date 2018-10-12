@@ -65,11 +65,9 @@ class Owner
   end
   
   def list_pets
-    @pets.each do |type, pets|
-      pets.each do |pet|
-        puts pet
-      end 
-    end
+    "I have #{pets[:fishes].count} fish, #{pets[:dogs].count} dog(s), and #{pets[:cats].count} cat(s)."
+  end
+
       
   end
   
